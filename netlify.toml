@@ -1,6 +1,6 @@
 [build]
   # Build command for Netlify
-  command = "npm run build:client"
+  command = "vite build"
   # Publish directory (where your built files are)
   publish = "dist/public"
 
